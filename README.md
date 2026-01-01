@@ -1,5 +1,6 @@
 Here is a **clean, professional, production-style README.md** for your OpsPilot backend.
-It explains the product clearly, gives setup steps, API usage, architecture, and future roadmap — perfect for GitHub, recruiters, and collaborators.
+It explains the product clearly, gives setup steps, API usage, architecture, and future roadmap — perfect for GitHub,
+recruiters, and collaborators.
 
 You can paste this directly into `README.md`.
 
@@ -7,11 +8,13 @@ You can paste this directly into `README.md`.
 
 # 🧠 OpsPilot — Backend (MVP)
 
-OpsPilot is an **AI-ready incident intelligence platform** that collects application errors via lightweight SDKs, groups them into meaningful incidents, and stores them for debugging and analytics.
+OpsPilot is an **AI-ready incident intelligence platform** that collects application errors via lightweight SDKs, groups
+them into meaningful incidents, and stores them for debugging and analytics.
 
 This repository contains the **backend ingestion service**, built with **Java + Spring Boot + PostgreSQL**.
 
-> Think of it as the backend engine behind platforms like Sentry or Datadog — built for learning, innovation, and future SaaS potential.
+> Think of it as the backend engine behind platforms like Sentry or Datadog — built for learning, innovation, and future
+> SaaS potential.
 
 ---
 
@@ -214,16 +217,21 @@ Use these in SDK configs.
 
 ```java
 OpsPilotConfig config = new OpsPilotConfig(
-    "pk_test_123",
-    "http://localhost:8080/logs"
+        "pk_test_123",
+        "http://localhost:8080/logs"
 );
 
-OpsPilot.init(config);
+OpsPilot.
 
-try {
-    int x = 10 / 0;
-} catch (Exception e) {
-    OpsPilot.capture(e);
+init(config);
+
+try{
+int x = 10 / 0;
+}catch(
+Exception e){
+        OpsPilot.
+
+capture(e);
 }
 ```
 
@@ -300,18 +308,10 @@ MIT — feel free to learn and build from this.
 
 # 🙌 Author
 
-**Rakesh**
+**Rakesh Ghosh**
+
 Backend-focused software developer
 Building projects that scale & impress.
 
 ---
 
-If you’d like, I can also create:
-
-* a shorter README for recruiters
-* a CONTRIBUTING.md
-* API documentation markdown
-* ERD diagram text
-* badges & shields for GitHub
-
-Just tell me.
